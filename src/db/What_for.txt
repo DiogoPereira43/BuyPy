@@ -1,0 +1,1 @@
+Scripts sql para criar e popular a BD. Considere os seguintes
