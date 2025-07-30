@@ -1,3 +1,0 @@
-Sub-directoria opcional, com o código Python com a interface gráfca (GUI)
-cliente, isto caso opte por desenvolver um cliente gráfco.
-
