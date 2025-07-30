@@ -1,1 +1,0 @@
-Defnições do projecto no VS Code
