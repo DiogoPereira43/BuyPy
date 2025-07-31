@@ -247,7 +247,7 @@ SELECT * FROM Clients;
 
 INSERT INTO Orders (order_id, date_time, delivery_method, order_status, payment_card_number, payment_card_name, payment_card_expiration, client_id)
 VALUES 
-(1, '2025-07-25 10:00:00', 'regular', 'open', 1234567890123456, 'João Silva', '2027-12-31', 1),
+(1, '2025-07-25 10:00:00', 'regular', 'open', 1234567890123456, 'Diogo Silva', '2027-12-31', 1),
 (2, '2025-07-25 15:30:00', 'express', 'open', 9876543210987654, 'Ana Costa', '2028-01-31', 2),
 (3, '2025-07-26 09:00:00', 'regular', 'open', 4567891234567890, 'Pedro Santos', '2027-11-30', 3),
 (4, '2025-07-26 12:45:00', 'express', 'open', 3210987654321098, 'Maria Oliveira', '2028-06-30', 4),
