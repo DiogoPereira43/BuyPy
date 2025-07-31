@@ -6,7 +6,7 @@ VALUES
 (1, 'Diogo Pedro Silva', 'diogo.silva@email.com', 'Pass#123', 'Rua das Porcas, nº10', 1234, 'Lisboa', 'Portugal', '912345678', '2025-07-26 14:00:00', '1990-01-15', TRUE),
 (2, 'Ana Sofia Costa', 'ana.costa@email.com', 'Test$456', 'Avenida Central, nº25', 5678, 'Porto', 'Portugal', '923456789', '2025-07-26 14:05:00', '1985-03-22', TRUE),
 (3, 'Pedro Miguel Santos', 'pedro.santos@email.com', 'Abc?789', 'Rua da Cabra, nº50', 9012, 'Faro', 'Portugal', '934567890', '2025-07-26 14:10:00', '1995-07-10', FALSE),
-(4, 'Maria Clara Oliveira', 'maria.oliveira@email.com', 'Xyz%101', 'Praça da Liberdade, nº15', 3456, 'Coimbra', 'Portugal', '945678901', '2025-07-26 14:15:00', '1988-11-30', TRUE),
+(4, 'Maria Clara Oliveira', 'maria.oliveira@email.com', 'Xyz%101', 'Praça da Vigarista, nº15', 3456, 'Coimbra', 'Portugal', '945678901', '2025-07-26 14:15:00', '1988-11-30', TRUE),
 (5, 'Lucas André Almeida', 'lucas.almeida@email.com', 'Qwe!202', 'Rua da Carlota, nº30', 7890, 'Braga', 'Portugal', '956789012', '2025-07-26 14:20:00', '1992-05-05', FALSE);
 SELECT * FROM Clients;
 
@@ -72,8 +72,8 @@ SELECT * FROM Electronic;
 INSERT INTO Book (product_id, isbn13, title, genre, publisher, publication_date)
 VALUES 
 ('P002', '9781234567890', 'A Novel', 'fiction', 'Penguin', '2020-01-01'),
-('P004', '9780987654321', 'History', 'history', 'Random House', '2019-06-15'),
-('P008', '9781112223334', 'Sci-Fi Adventure', 'science fiction', 'Tor Books', '2021-03-10'),
+('P004', '9780987654321', 'History', 'history', 'Paramount', '2019-06-15'),
+('P008', '9781112223334', 'Sci-Fi Adventure', 'science fiction', 'Toti Books', '2021-03-10'),
 ('P009', '9784445556667', 'Mystery Case', 'mystery', 'HarperCollins', '2022-09-20'),
 ('P010', '9787778889990', 'Fantasy World', 'fantasy', 'Orbit', '2023-02-28');
 SELECT * FROM Book;
@@ -81,7 +81,7 @@ SELECT * FROM Book;
 
 INSERT INTO Author (author_id, author_name, fullname, birthdate)
 VALUES 
-(1, 'J.K. Rowling', 'Joanne Rowling', '1965-07-31'),
+(1, 'J.K. Powling', 'Joanne Powling', '1965-07-31'),
 (2, 'George R.R. Martin', 'George Raymond Richard Martin', '1948-09-20'),
 (3, 'Agatha Christie', 'Agatha Mary Clarissa Christie', '1890-09-15'),
 (4, 'Isaac Asimov', 'Isaac Yudovich Asimov', '1920-01-02'),
