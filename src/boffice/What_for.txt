@@ -1,1 +1,0 @@
-Sub-directoria com o código Python do cliente do terminal 
